@@ -24,18 +24,14 @@ public class Main {
         DbService.getInstancia().iniciarDn();
         Configuration configuration = new Configuration(Configuration.getVersion());
         configuration.setClassForTemplateLoading(Main.class, "/templates");
-        staticFiles.location("/publico");
+        staticFiles.location("/MANIFEST");
         FreeMarkerEngine freeMarkerEngine = new FreeMarkerEngine(configuration);
         crearEntidades();
         enableDebugScreen();
 
-        get("/", (request, response) -> {
-            return modelAndView(null, "index.ftl");
-        }, freeMarkerEngine);
+        get("/", (request, response) -> modelAndView(null, "index.ftl"), freeMarkerEngine);
 
-        get("/listaFormulario", (request, response) -> {
-            return modelAndView(null, "listaFormulario.ftl");
-        }, freeMarkerEngine);
+        get("/listaFormulario", (request, response) -> modelAndView(null, "listaFormulario.ftl"), freeMarkerEngine);
 
         get("/mapa", (request, response) -> {
             List<Formulario> formularios = FormularioService.getInstancia().findAll();
@@ -53,9 +49,7 @@ public class Main {
                 System.out.println(request.body());
                 return formulario;
             }, JsonUtilidades.json());
-            get("/formularios", Main.ACCEPT_TYPE_JSON, (request, response) -> {
-                return FormularioService.getInstancia().findAll();
-            }, JsonUtilidades.json());
+            get("/formularios", Main.ACCEPT_TYPE_JSON, (request, response) -> FormularioService.getInstancia().findAll(), JsonUtilidades.json());
         });
     }
 

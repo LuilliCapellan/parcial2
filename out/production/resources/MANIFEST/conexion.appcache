@@ -1,0 +1,14 @@
+CACHE MANIFEST
+# v1 2011-08-14
+# Este es otro comentario
+CACHE:
+bootstrap.min.css
+/ listaFormulario.ftl
+/ index.ftl
+
+# Usar desde la red si está disponible
+NETWORK:
+/ map.ftl
+
+# Contenido de fallback
+FALLBACK:

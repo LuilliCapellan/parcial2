@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en"  manifest="conexion.appcache">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -627,16 +627,33 @@
 </head>
 <body style="    color: rgb(217, 215, 211);
     background-color: rgb(23, 24, 28);">
-<#include "/navBar.ftl">
-<div id="dialog-form" title="Editar Formulario" style="color: rgb(217, 215, 211);
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="background-color: rgb(46, 55, 70) !important; ">
+    <a class="navbar-brand" href="#">Parcial 2</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="background-color: rgb(46, 55, 70) !important;">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/">Ingresar Datos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/listaFormulario">Ver Datos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/mapa">Maps</a>
+            </li>
+        </ul>
+    </div>
+</nav><div id="dialog-form" title="Editar Formulario" style="color: rgb(217, 215, 211);
     background-color: rgb(23, 24, 28);">
     <form>
         <fieldset>
-            <label for="nombre">Nombre</label>
             <input type="text" name="nombre" id="nombre" value=""
                    style="background-color: rgb(46, 55, 70) !important; -webkit-text-fill-color: white"
                    class="text ui-widget-content ui-corner-all">
-            <label for="sector">Sector</label>
             <input type="text" name="sector" id="sector" value=""
                    style="background-color: rgb(46, 55, 70) !important; -webkit-text-fill-color: white"
                    class="text ui-widget-content ui-corner-all">
