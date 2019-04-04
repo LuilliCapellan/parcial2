@@ -632,13 +632,18 @@
     background-color: rgb(23, 24, 28);">
     <form>
         <fieldset>
-            <label for="nombre" >Nombre</label>
-            <input type="text" name="nombre" id="nombre" value="" class="text ui-widget-content ui-corner-all">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" value=""
+                   style="background-color: rgb(46, 55, 70) !important; -webkit-text-fill-color: white"
+                   class="text ui-widget-content ui-corner-all">
             <label for="sector">Sector</label>
-            <input type="text" name="sector" id="sector" value="" class="text ui-widget-content ui-corner-all">
+            <input type="text" name="sector" id="sector" value=""
+                   style="background-color: rgb(46, 55, 70) !important; -webkit-text-fill-color: white"
+                   class="text ui-widget-content ui-corner-all">
             <div class="form-group">
-                <label for="nivelEscolar">Nivel Escolar</label>
-                <select class="form-control" name="nivelEscolar" id="nivelEscolar"
+                <select class="form-control" name="nivelEscolar"
+                        style="background-color: rgb(46, 55, 70) !important; -webkit-text-fill-color: white"
+                        id="nivelEscolar"
                         class="text ui-widget-content ui-corner-all">
                     <option value="0">Nivel Básico</option>
                     <option value="1">Nivel Medio</option>
@@ -651,7 +656,8 @@
         </fieldset>
     </form>
 </div>
-<div id="tablaFormulario" style=" margin-top: 2vh;background-color: rgb(46, 55, 70) !important; -webkit-text-fill-color: white">
+<div id="tablaFormulario"
+     style=" margin-top: 2vh;background-color: rgb(46, 55, 70) !important; -webkit-text-fill-color: white">
 
 </div>
 <button type="submit" onclick="enviarFormulario()" id="enviarServidor" class="btn btn-primary"

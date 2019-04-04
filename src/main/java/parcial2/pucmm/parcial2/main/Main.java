@@ -60,7 +60,7 @@ public class Main {
     }
 
     public static void crearEntidades() {
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("MiUnidadPersistencia");
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("UnidadPersistencia");
         EntityManager entityManager = emf.createEntityManager();
         entityManager.getTransaction().begin();
     }

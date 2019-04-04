@@ -19,7 +19,7 @@ public class DbService {
             Server.createTcpServer("-tcpPort", "9092", "-tcpAllowOthers", "-tcpDaemon").start();
 
         } catch (SQLException ex) {
-            System.out.println("Problema con la base de datos: " + ex.getMessage());
+            System.out.println("Error en la base de datos: " + ex.getMessage());
         }
     }
 

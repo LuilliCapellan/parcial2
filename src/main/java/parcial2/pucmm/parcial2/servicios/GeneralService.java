@@ -16,7 +16,7 @@ public class GeneralService<T> {
 
     public GeneralService(Class<T> claseEntidad) {
         if (emf == null) {
-            emf = Persistence.createEntityManagerFactory("MiUnidadPersistencia");
+            emf = Persistence.createEntityManagerFactory("UnidadPersistencia");
         }
         this.claseEntidadGeneral = claseEntidad;
 
