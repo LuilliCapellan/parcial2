@@ -1,0 +1,39 @@
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'com.github.johnrengelman.shadow'
+
+group 'com.parcial2.pucmm'
+version '1.0-SNAPSHOT'
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.github.jengelman.gradle.plugins:shadow:4.0.1'
+    }
+}
+sourceCompatibility = 1.8
+
+mainClassName = "parcial2.pucmm.parcial2.main.Main"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'org.hibernate:hibernate-core:5.1.0.Final'
+    compile 'org.hibernate:hibernate-entitymanager:5.1.0.Final'
+    compile "com.sparkjava:spark-core:2.7.2" // add to build.gradle (for Java users)
+    compile 'com.h2database:h2:1.4.191'
+    compile 'com.sparkjava:spark-template-freemarker:2.7.1'
+    compile group: 'org.jasypt', name: 'jasypt', version: '1.9.2'
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile "org.slf4j:slf4j-simple:1.7.21"
+    compile 'com.sparkjava:spark-debug-tools:0.5'
+    compile group: 'com.google.code.gson', name: 'gson', version: '2.8.1'
+}
+
+shadowJar {
+    version = 0.1
+}
