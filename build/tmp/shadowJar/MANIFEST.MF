@@ -1,3 +1,2 @@
 Manifest-Version: 1.0
-Main-Class: parcial2.pucmm.parcial2.main.Main
 
