@@ -1,7 +1,7 @@
 CACHE MANIFEST
 # v1 2019-04-04
 # Este es otro comentario
-CACHE:
+
 bootstrap.min.css
 / listaFormulario.ftl
 / index.ftl
