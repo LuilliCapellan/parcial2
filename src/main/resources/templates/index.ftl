@@ -75,7 +75,7 @@
                 nivelScolar: document.querySelector("#nivelEscolar").value,
                 nombre: document.querySelector("#nombre").value,
                 sector: document.querySelector("#sector").value,
-                enviado_al_servidor: 0,
+                cargado_online: 0,
                 latitud: coordenadas.latitude,
                 longitud: coordenadas.longitude
             });
