@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3daab52-1a94-4890-a6e3-ad938064f780" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parcial2/pucmm/parcial2/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parcial2/pucmm/parcial2/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/MANIFEST/conexion.appcache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/MANIFEST/conexion.appcache" afterDir="false" />
+
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -280,6 +277,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -382,6 +380,9 @@
           <select />
         </subPane>
       </pane>
+=======
+      <pane id="ProjectPane" />
+>>>>>>> parent of eb7a9e0... Shadow jar 3
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -390,7 +391,11 @@
     <property name="DatabaseDriversLRU" value="h2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554415546603" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554412749024" />
+>>>>>>> parent of eb7a9e0... Shadow jar 3
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -422,10 +427,8 @@
   </component>
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="parcial2.pucmm.parcial2.main.Main" />
-      <module name="com.parcial2.pucmm.parcial2.main" />
+      <module name="edu.pucmm.lugi.parcial2.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="parcial2.pucmm.parcial2.main.*" />
@@ -438,7 +441,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="parcial2.pucmm.parcial2.main.Main" />
-      <module name="com.parcial2.pucmm.parcial2" />
+      <module name="edu.pucmm.lugi.parcial2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="parcial2.pucmm.parcial2.main.*" />
@@ -449,30 +452,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="parcial2 [shadowJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="shadowJar" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Gradle.parcial2 [shadowJar]" />
       </list>
     </recent_temporary>
   </component>
@@ -494,12 +477,20 @@
       <workItem from="1553812334745" duration="1316000" />
       <workItem from="1554133648172" duration="634000" />
       <workItem from="1554217059494" duration="3132000" />
+<<<<<<< HEAD
       <workItem from="1554353903865" duration="25145000" />
+=======
+      <workItem from="1554353903865" duration="23203000" />
+>>>>>>> parent of eb7a9e0... Shadow jar 3
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="105311000" />
+=======
+    <option name="totallyTimeSpent" value="103369000" />
+>>>>>>> parent of eb7a9e0... Shadow jar 3
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -515,7 +506,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Persistence" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14872068" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14872068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -527,7 +518,7 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Messages" order="2" sideWeight="0.49946696" weight="0.32977587" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32870865" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49626866" visible="true" weight="0.32550693" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49626866" weight="0.32550693" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.3991462" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -537,7 +528,7 @@
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50373137" side_tool="true" weight="0.32550693" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49946696" weight="0.32870865" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="14" sideWeight="0.49946696" visible="true" weight="0.32870865" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
