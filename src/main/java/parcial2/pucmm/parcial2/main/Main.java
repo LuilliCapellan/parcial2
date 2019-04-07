@@ -28,6 +28,7 @@ public class Main {
         FreeMarkerEngine freeMarkerEngine = new FreeMarkerEngine(configuration);
         crearEntidades();
         enableDebugScreen();
+
         get("/", (request, response) -> modelAndView(null, "index.ftl"), freeMarkerEngine);
 
         get("/listaFormulario", (request, response) -> modelAndView(null, "listaFormulario.ftl"), freeMarkerEngine);

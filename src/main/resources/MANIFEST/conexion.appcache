@@ -1,14 +1,26 @@
 CACHE MANIFEST
 # v1 2019-04-04
-# Este es otro comentario
-
-bootstrap.min.css
-/ listaFormulario.ftl
-/ index.ftl
+CACHE:
+/
+/listaFormulario
+cache-css/css/bootstrap.css
+cache-css/js/jquery-ui.css
+cache-css/js/jquery-ui.js
+cache-css/js/jquery-1.12.4.min.js
+cache-css/js/jquery-3.3.1.min.js
+cache-css/js/bootstrap.js
+cache-css/css/offline-theme-default.css
+cache-css/js/offline.min.js
+cache-css/css/offline-language-spanish.min.css
 
 # Usar desde la red si está disponible
 NETWORK:
-/ map.ftl
+/
+/mapa
+/listaFormulario
+cache-css/css/offline-theme-default.css
+cache-css/js/offline.min.js
+cache-css/css/offline-language-spanish.min.css
 
 # Contenido de fallback
 FALLBACK:
