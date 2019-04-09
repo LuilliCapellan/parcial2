@@ -115,6 +115,9 @@
                 <a class="nav-link" href="/listaFormulario">Ver Datos</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="/listaFormularioServidor">Datos Servidor</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="/mapa">Maps</a>
             </li>
         </ul>

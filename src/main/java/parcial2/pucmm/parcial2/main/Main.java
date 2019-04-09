@@ -33,6 +33,8 @@ public class Main {
 
         get("/listaFormulario", (request, response) -> modelAndView(null, "listaFormulario.ftl"), freeMarkerEngine);
 
+        get("/listaFormularioServidor", (request, response) -> modelAndView(null, "listaFormularioServidor.ftl"), freeMarkerEngine);
+
         get("/mapa", (request, response) -> {
             List<Formulario> formularios = FormularioService.getInstancia().findAll();
             Map<String, Object> attributes = new HashMap<>();
